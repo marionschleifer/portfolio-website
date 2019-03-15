@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="A portfolio template that uses Material Design Lite."
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Portfolio Marion</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header
+        class="mdl-layout__header mdl-layout__header--waterfall portfolio-header"
+      >
+        <div class="mdl-layout__header-row portfolio-logo-row">
+          <span class="mdl-layout__title">
+            <div class="portfolio-logo"></div>
+          </span>
+        </div>
+        <div
+          class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only"
+        >
+          <nav
+            class="mdl-navigation mdl-typography--body-1-force-preferred-font"
+          >
+            <a class="mdl-navigation__link" href="about.html">About</a>
+            <a class="mdl-navigation__link is-active" href="portfolio.html"
+              >Portfolio</a
+            >
+            <a class="mdl-navigation__link" href="blog.html">Blog</a>
+            <a class="mdl-navigation__link" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+          <a class="mdl-navigation__link" href="about.html">About</a>
+          <a class="mdl-navigation__link" href="portfolio.html">Portfolio</a>
+          <a class="mdl-navigation__link is-active" href="blog.html">Blog</a>
+          <a class="mdl-navigation__link" href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid portfolio-max-width">
+          <div
+            class="mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp"
+          >
+            <div class="mdl-card__media mdl-cell mdl-cell--12-col-tablet">
+              <img
+                class="article-image"
+                src=" images/technical.png"
+                border="0"
+                alt=""
+              />
+            </div>
+            <div class="mdl-cell mdl-cell--8-col">
+              <h2 class="mdl-card__title-text">
+                Technical Skills
+              </h2>
+              <div class="mdl-card__supporting-text padding-top"></div>
+              <div class="mdl-card__supporting-text no-left-padding">
+                <table id="skills">
+                  <tr>
+                    <td>Languages</td>
+                    <td>Ruby, TypeScript, Java</td>
+                  </tr>
+                  <tr>
+                    <td>Web Technology Experience</td>
+                    <td>Ruby On Rails, VueJS, HTML, CSS, Material Design</td>
+                  </tr>
+                  <tr>
+                    <td>ML / Voice</td>
+                    <td>Actions on Google, Dialogflow</td>
+                  </tr>
+                  <tr>
+                    <td>Others</td>
+                    <td>Git / Github, Heroku, SQL, GraphQL, Firebase</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp"
+          >
+            <div
+              class="mdl-card__title mdl-card--expand portfolio-blog-card-strip-bg mdl-color-text--white"
+            >
+              <h2 class="mdl-card__title-text">Community Work</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              <a href="https://www.meetup.com/wtm-switzerland/" target="blank"
+                ><strong>Women Techmakers</strong></a
+              >
+              (Co-Founder, Organizer, Speaker)
+
+              <br />
+              <span
+                >Google's program to prvide visibility and a platform for women
+                in tech</span
+              >
+              <br />
+              <a href="https://rubymonstas.ch/" target="blank"
+                ><strong>Ruby Monstas</strong></a
+              >
+              (Co-Founder, Organizer, Teacher)
+
+              <br />
+              <span>Free weekly programming course for women in Zurich</span>
+              <br />
+              <a href="http://railsgirls.com/" target="blank"
+                ><strong>Rails Girls</strong></a
+              >
+              (Organizer, Coach)
+              <br />
+              <span
+                >Free weekend course for women to build websites with
+                Rails</span
+              >
+            </div>
+          </div>
+          <div
+            class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-card mdl-card mdl-shadow--4dp portfolio-blog-card-full-bg  "
+          >
+            <div class="mdl-card__title mdl-card--expand "></div>
+            <div class="mdl-card__actions">
+              <span class="demo-card-image__filename"></span>
+            </div>
+          </div>
+          <div
+            class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp "
+          >
+            <div class="mdl-card__media">
+              <img
+                class="article-image"
+                src=" images/graduation.jpg"
+                border="0"
+                alt=""
+              />
+            </div>
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Education</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              <p>
+                <strong>MAS Software Engineering</strong>
+                <br />
+                <span>University of Applied Sciences Rapperswil</span>
+              </p>
+              <p>
+                <strong>MSc Business Administration</strong>
+                <br />
+                <span>Lucerne University of Applied Sciences</span>
+              </p>
+              <p>
+                <strong>BA Multilingual Communication</strong>
+                <br />
+                <span>Zurich University of Applied Sciences</span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="demo-card-event mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-card mdl-card mdl-shadow--4dp  mdl-color-text--white"
+          >
+            <div class="mdl-card__media">
+              <iframe
+                src="https://www.youtube.com/embed/6UN2iKneBE8"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="mdl-card__title ">
+              <h2 class="mdl-card__title-text">TEDx Talk</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              In January 2018, I gave a TEDx talk about women in tech in
+              Mountain View, CA. This was my largest audience so far and it was
+              exciting. It was also a great experience exchanging with the
+              students from Mountain View High School, visiting their robotics
+              lab and learning about their future plans.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a
+                href="https://www.youtube.com/watch?v=6UN2iKneBE8&t=226s"
+                target="blank"
+                class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+              >
+                Watch on Youtube
+              </a>
+            </div>
+          </div>
+          <div
+            class="mdl-cell mdl-cell--5-col mdl-cell--4-col-tablet mdl-card  mdl-card mdl-shadow--4dp"
+          >
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">IVLP Exchange Program</h2>
+            </div>
+            <div class="mdl-card__media">
+              <a href="#">
+                <img
+                  class="article-image"
+                  src=" images/certificate.jpg"
+                  border="0"
+                  alt=""
+              /></a>
+            </div>
+            <div class="mdl-card__supporting-text">
+              <p>
+                In 2018, I attended an exchange program by the US State
+                Department & 21st Century Fox for women in STEM. 50 women from
+                50 countries came together to discuss women's advancement and to
+                kick off community projects. Read about it in my
+                <a
+                  href="https://medium.com/@marion.schleifer/hiddennomore-my-experience-of-the-international-visitor-leadership-program-b524a9ad198f"
+                  target="blank"
+                  >blogpost</a
+                >.
+              </p>
+            </div>
+          </div>
+          <div
+            class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-card  mdl-card mdl-shadow--4dp portfolio-blog-card-compact"
+          >
+            <div class="mdl-card__media">
+              <img
+                class="article-image"
+                src=" images/iwd.jpg"
+                border="0"
+                alt=""
+              />
+            </div>
+            <div class="mdl-card__title ">
+              <h2 class="mdl-card__title-text">Future Events</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              <a href="https://webzueri.ch/" target="blank"
+                ><strong>Web Zurich: March Meetup</strong></a
+              >
+              (21st March 2019)
+              <br />
+              <span
+                >Talk: Web applications with VueJS and Hasura's GraphQL
+                engine</span
+              >
+              <br />
+              <a
+                href="https://www.meetup.com/wtm-switzerland/events/259327707/"
+                target="blank"
+                ><strong>Women Techmakers: Google Cloud Study Jam</strong></a
+              >
+              (22nd March 2019)
+              <br />
+              <span
+                >Workshop to learn about Google cloud for beginners and
+                experts</span
+              >
+              <br />
+              <a
+                href="https://www.meetup.com/wtm-switzerland/events/259756945/"
+                target="blank"
+                ><strong
+                  >Women Techmakers: Introduction to GraphQL workshop</strong
+                ></a
+              >
+              (29th March 2019)
+              <br />
+              <span
+                >Workshop about GraphQL to build an API as a serverless
+                backend</span
+              >
+              <br />
+              <a href="https://2019.rubyday.it/" target="blank"
+                ><strong>RubyDay Verona, Italy</strong></a
+              >
+              (11th April 2019)
+              <br />
+              <span>Talk: GraphQL and serverless Ruby</span>
+            </div>
+          </div>
+        </div>
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer__left-section">
+            <div class="mdl-logo">© 2019 Marion Schleifer</div>
+          </div>
+          <div class="mdl-mini-footer__right-section">
+            <ul class="mdl-mini-footer__link-list">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/marion-schleifer/"
+                  target="blank"
+                  ><img class="social" src="./images/linkedin_icon.png" />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/rubydwarf" target="blank"
+                  ><img class="social" src="./images/twitter_icon.png" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/marion.schleifer"
+                  target="blank"
+                  ><img class="social" src="./images/facebook_icon.png" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+</html>
